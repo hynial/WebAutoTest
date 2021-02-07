@@ -10,6 +10,6 @@ public class BaiduHomepage extends BasePage {
 
     public BaiduHomepage(WebDriver driver) {
         super(driver);
-        logger.info("this is baidu  home page {}", Thread.currentThread().getId());
+        logger.info("this is baidu home page {}", Thread.currentThread().getId());
     }
 }
